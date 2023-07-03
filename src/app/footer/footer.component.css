@@ -1,0 +1,9 @@
+div{
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    position: sticky;
+    bottom: 0;
+    padding: 1rem;
+}

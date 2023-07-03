@@ -1,0 +1,32 @@
+.tophead{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: .1rem solid white;
+}
+.nav-items{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: space-around;
+}
+a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+a:hover{
+ cursor: pointer;
+ color: gray;
+ text-decoration: underline solid gray;
+ 
+}

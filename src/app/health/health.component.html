@@ -1,0 +1,8 @@
+<div class="newsbox">
+    <div class="card" *ngFor = "let news of articlesData">
+         <h5 class="title">{{news.author}}</h5>
+         <p>{{news.description}}</p>
+         <img src="{{news.urlToImage}}" alt="Image Not Available">
+         <button><a href="{{news.url}}">Click here to read Full Article</a></button>
+    </div>
+  </div>

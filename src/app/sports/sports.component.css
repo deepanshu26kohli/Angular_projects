@@ -1,0 +1,52 @@
+.newsbox{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(black,rgb(77, 77, 77));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: space-around;
+}
+.card{
+    background-color: white;
+    width: 25vw;
+    height: auto;
+    margin: 2rem;
+    text-align: center;
+    padding:2rem
+}
+img{
+    height: 25vh;
+}
+button{
+    margin-top: 2rem;
+    background-color: black;
+    padding: .1rem;
+    border: 1rem solid black;
+    border-radius: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+    .card{
+        background-color: white;
+        width: 60vw;
+        height: auto;
+        margin: 2rem;
+        text-align: center;
+        padding:2rem
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .card{
+        background-color: white;
+        width: 90vw;
+        height: auto;
+        margin: 2rem;
+        text-align: center;
+        padding:2rem
+    }
+  }
